@@ -6,3 +6,6 @@ uses can-stache-key to update the key inside stache
 
 nils can create auto diffing html elements from streams with any template engine
 it can also be used with pure html
+
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/direktspeed/nils.svg)](https://greenkeeper.io/)

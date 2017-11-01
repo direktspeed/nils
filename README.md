@@ -1,7 +1,14 @@
 ## Features
 - Incremental Build Process
 - Incremental Loading of The Whole Application including Design and Logic Indipendent
-- works with any registry npm, yarn, jspm
+- Hot Module Swapping
+- MVC + MVVM Pattern 
+- Works with any Framework based on JavaScript
+- Works with any registry npm, yarn, jspm
+- Web Worker Support
+- Web Service Worker Support
+- es7 Support
+- Tree Shaking Support
 - SSR Support
 - pre processor support
 - partial paradigm for preprocessors

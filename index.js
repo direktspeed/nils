@@ -1,3 +1,12 @@
+import { LegacyElementMixin } from './lib/legacy/legacy-element-mixin.js';
+import './lib/legacy/polymer-fn.js';
+import './lib/legacy/templatizer-behavior.js';
+import './lib/elements/dom-bind.js';
+import './lib/elements/dom-repeat.js';
+import './lib/elements/dom-if.js';
+import './lib/elements/array-selector.js';
+import './lib/elements/custom-style.js';
+import './lib/legacy/mutable-data-behavior.js';
 const most = require('most')
 const bluebird = require('bluebird')
 
@@ -6,6 +15,27 @@ class Nils {
   constructor(){
     this.stream = most;
     this.promise = bluebird;
+    import { ElementMixin } from './lib/mixins/element-mixin.js';
+
+    /**
+     * Base class that provides the core API for Polymer's meta-programming
+     * features including template stamping, data-binding, attribute deserialization,
+     * and property change observation.
+     *
+     * @customElement
+     * @polymer
+     * @memberof Polymer
+     * @constructor
+     * @implements {Polymer_ElementMixin}
+     * @extends HTMLElement
+     * @appliesMixin Polymer.ElementMixin
+     * @summary Custom element base class that provides the core API for Polymer's
+     *   key meta-programming features including template stamping, data-binding,
+     *   attribute deserialization, and property change observation
+     */
+    this.PolymerElement = ElementMixin(HTMLElement);
+
+    this.PolymerElementLegacy = LegacyElementMixin(HTMLElement).prototype;
   }
   // create component
   // take a existing component and combine them

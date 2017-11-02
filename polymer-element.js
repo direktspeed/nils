@@ -1,5 +1,5 @@
-import { ElementMixin } from './lib/mixins/element-mixin.js';
-
+// This is only a Wrapper not the Original
+import Nils from '.'
 /**
  * Base class that provides the core API for Polymer's meta-programming
  * features including template stamping, data-binding, attribute deserialization,
@@ -16,5 +16,5 @@ import { ElementMixin } from './lib/mixins/element-mixin.js';
  *   key meta-programming features including template stamping, data-binding,
  *   attribute deserialization, and property change observation
  */
-const Element = ElementMixin(HTMLElement);
+const Element = Nils.PolymerElement
 export { Element };

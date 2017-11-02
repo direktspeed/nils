@@ -1,6 +1,6 @@
 {
-  "name": "nils",
-  "version": "0.0.2",
+  "name": "@nikolaus/nils",
+  "version": "0.0.4",
   "description": "Fastest Reactiv Monadic Streams Framework for FullStack Frontend Backend Development",
   "main": "index.js",
   "scripts": {

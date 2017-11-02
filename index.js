@@ -1,5 +1,6 @@
 const most = require('most')
 const bluebird = require('bluebird')
+
 //No NEW
 class Nils {
   constructor(){

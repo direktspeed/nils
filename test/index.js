@@ -1,3 +1,3 @@
-var nils = require('..')
+var nils = require('nils')
 
 console.log(Object.keys(nils))

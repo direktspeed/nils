@@ -1,5 +1,5 @@
 # Nils (nikolaos framework) - PreAlpha!
-
+NPM: @nikolaus/nils@0.0.4
 ## TODO: Create Badges
 
 Nils lets you build encapsulated, reusable elements that work just like standard HTML elements, to use in building web applications.
@@ -39,7 +39,7 @@ it can also be used with pure html
 To try Nils, use `yarn` to install from `npm`:
 
 ```sh
-> yarn add @nikolaos/nils --flat
+> yarn add @nikolaus/nils@0.0.4 --flat
 ```
 
 
